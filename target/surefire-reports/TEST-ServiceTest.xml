@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="ServiceTest" time="0.278" errors="0" skipped="0">
+<testsuite tests="3" failures="1" name="ServiceTest" time="0.297" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
@@ -29,7 +29,7 @@
     <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.1\java\maven\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python36\Scripts\;C:\Python36\;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Acer\abFiles\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\doxygen\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\apache-ant-1.9.7\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\bin;C:\Users\Yewsi\AppData\Local\Android\sdk\tools;C:\Users\Yewsi\AppData\Local\Microsoft\WindowsApps;C:\Users\Yewsi\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python36\Scripts\;C:\Python36\;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Acer\abFiles\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\Yewsi\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\doxygen\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\apache-ant-1.9.7\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Yewsi\AppData\Local\Android\sdk\tools;C:\Users\Yewsi\Documents\School\Suomi\testing &amp; maintanance\apache-maven-3.3.9\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Users\Yewsi\AppData\Local\Microsoft\WindowsApps;C:\Users\Yewsi\AppData\Roaming\npm;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ServiceTest" name="random_number_input_has_to_be_positive" time="0.04">
+  <testcase classname="ServiceTest" name="random_number_input_has_to_be_positive" time="0.046">
     <failure message="Expected exception: java.lang.IllegalArgumentException" type="java.lang.AssertionError">java.lang.AssertionError: Expected exception: java.lang.IllegalArgumentException
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
